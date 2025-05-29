@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: E5
+  m_Shader: {fileID: -6465566751694194690, guid: 1c35f509c6248dc4fa1036e7b759b712, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Main_texture:
+        m_Texture: {fileID: 2800000, guid: 608a38debbf85a04c9ba1fd488217f6b, type: 3}
+        m_Scale: {x: 4, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _Mask_Main:
+        m_Texture: {fileID: 2800000, guid: 64d516de97fdded4391c810de9b834cc, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _Mask_Mid:
+        m_Texture: {fileID: 2800000, guid: 3d0e93be6ead7104f82faf56d43d29ad, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _Mask_Trail:
+        m_Texture: {fileID: 2800000, guid: 0379535553ea9604fb042f12927d4938, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _Mid_Texture:
+        m_Texture: {fileID: 2800000, guid: bbc51a3f84cc8fd4e92e98d96e1c3557, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Nomral_Main:
+        m_Texture: {fileID: 2800000, guid: a24407c49eb9acc48a53061d41504598, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _Normal_Mid:
+        m_Texture: {fileID: 2800000, guid: ef7e0ea2bf7342a4f906ca473a1feb95, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _Normal_Trail:
+        m_Texture: {fileID: 2800000, guid: 0d2390558349b9e4ebf350d7ccc35a49, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _Trail:
+        m_Texture: {fileID: 8400000, guid: e2d75c22ce8a4784fbdba23012535251, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Trail_texture:
+        m_Texture: {fileID: 2800000, guid: 1007cbdcb4b6d0d4292235ddf17efee7, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Blending: 58.32
+    - _HeightMultiplayer: 25
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _TrailRaius: 3.14
+    - _TrailTiling: 1
+    m_Colors:
+    - _AB: {r: 0.0001, g: 0.35, b: 0, a: 0}
+    - _BC: {r: 0.35, g: 1, b: 0, a: 0}
+    - _Color_trail: {r: 1, g: 1, b: 1, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &7887574858164906001
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
